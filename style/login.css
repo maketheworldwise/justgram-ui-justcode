@@ -27,7 +27,14 @@
   color: rgba(var(--i1d, 38, 38, 38), 1);
 }
 
-.login__btn {
+.login__btn-disable {
+  margin-top: 10px;
+  background-color: #0095f6;
+  color: white;
+  opacity: 0.5;
+}
+
+.login__btn-enable {
   margin-top: 10px;
   background-color: #0095f6;
   color: white;
