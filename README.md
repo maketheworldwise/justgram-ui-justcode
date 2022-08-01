@@ -370,3 +370,9 @@
 
 </div>
 </details>
+
+---
+
+## 참고
+
+- [Favicon Generator](https://www.favicon-generator.org)
