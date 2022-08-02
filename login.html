@@ -36,12 +36,25 @@
     <link rel="stylesheet" href="style/init.css" />
     <link rel="stylesheet" href="style/login.css" />
   </head>
-  <body>
+  <body class="common__arragement--center">
     <div class="login">
-      <h1 class="login__logo">Instagram</h1>
-      <input class="login__content login__input" type="text" placeholder="전화번호, 사용자 이름 또는 이메일" />
-      <input class="login__content login__input" type="password" placeholder="비밀번호" />
-      <button class="login__content login__btn-disable" type="submit" disabled>로그인</button>
+      <div class="common__arragement--center login__logo">
+        <span class="logo-text">Instagram</span>
+      </div>
+      <div class="login__form">
+        <div class="common__arragement--center login__content">
+          <input class="login__input" type="text" placeholder="전화번호, 사용자 이름 또는 이메일" />
+        </div>
+        <div class="common__arragement--center login__content">
+          <input class="login__input" type="password" placeholder="비밀번호" />
+        </div>
+        <div class="common__arragement--center login__btn">
+          <button class="login__btn-disable" type="submit" disabled>로그인</button>
+        </div>
+        <div class="common__arragement--center login__find">
+          <a class="login__find--pw" href="#">비밀번호를 잊으셨나요?</a>
+        </div>
+      </div>
     </div>
 
     <script type="text/javascript" src="js/login.js"></script>

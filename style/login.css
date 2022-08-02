@@ -1,41 +1,69 @@
 .login {
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
-  margin: 10px;
-  padding: 30px;
+  width: 400px;
+  border: 1px solid #dbdbdb;
+  background-color: #ffffff;
 }
 
 .login__logo {
-  text-align: center;
-  font-size: xx-large;
+  padding: 30px;
+}
+
+.logo-text {
   font-family: "Lobster", cursive;
-  margin: 30px;
+  font-size: 40px;
+}
+
+.login__form {
 }
 
 .login__content {
-  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  border: 1px solid #dbdbdb;
   border-radius: 3px;
-  padding: 10px;
-  margin: 5px;
+  background-color: #fafafa;
+  margin: 0px 40px 10px;
+}
+
+.login__btn {
+  margin: 20px 40px 10px;
 }
 
 .login__input {
-  background: rgba(var(--b3f, 250, 250, 250), 1);
-  color: rgba(var(--i1d, 38, 38, 38), 1);
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  background-color: #fafafa;
+  box-sizing: border-box;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.login__input:focus {
+  outline: none;
 }
 
 .login__btn-disable {
-  margin-top: 10px;
-  background-color: #0095f6;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  background-color: #b2dffc;
   color: white;
-  opacity: 0.5;
+  padding: 15px;
 }
 
 .login__btn-enable {
-  margin-top: 10px;
-  background-color: #0095f6;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  background-color: #0695f6;
   color: white;
+  padding: 15px;
+}
+
+.login__find {
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
+
+.login__find--pw {
+  color: #497095;
 }
